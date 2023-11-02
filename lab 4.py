@@ -15,6 +15,16 @@ breadth=float(input('enter breadth'))
 print(breadth)
 area=length*breadth
 print(area)
+radius=float(input('enter radius'))
+if(radius>0):
+    print('valid input')
+    area=3.14*radius*radius
+    print(area)
+else:
+    print('invalid input')
+
+
+
 
 
 
